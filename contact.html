@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" type="text/css" href = "main.css"> 
+    <meta charset="UTF-8">
+    <title>Contact Page</title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "box box1"><a href="index.html">Home</a></div>
+        <div class = "box box2"><a href="about.html">About Me</a></div>
+        <div class = "box box3"><a href="contact.html">Contact Me</a></div>
+        
+    </div>
+    <div class= "contact-title">
+        <h1>Send me an email</h1>
+        <h2> Simply fill in the form below!</h2>
+
+    </div>
+
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="contactformhandler.php">
+        <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+        <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+        
+        <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+
+            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+            </form>
+
+
+
+    </div>
+<p>You can also contact me on Discord my username is "Cals#0026"</p>
+</body>
+</html>

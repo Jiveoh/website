@@ -1,0 +1,144 @@
+/* this is my first style sheet */
+/* think of colour font */
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+*{
+    font-family: 'Slabo', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+   display: flex;
+   /* min-height: 100vh; */
+   flex-direction: column;
+   /* align-items: center; */
+   justify-content: center;
+}
+/* create a box for items */
+.box {
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+   font-family: 'Slabo', sans-serif;
+   text-align: center;
+   padding: 15px;
+   width: 190px;
+   height: 50px;
+}
+
+.box1 {background-color: rgb(251, 148, 255);}
+.box2 {background-color: rgb(251, 148, 255);}
+.box3 {background-color: rgb(251, 148, 255);}
+
+
+h1 {
+    color:darkorchid;
+    font-size: 25;
+}
+
+h2 {
+    color: deepskyblue;
+    font-size: 20
+}
+
+/* * {
+    background-color: ivory;
+} */
+
+
+/* property value */
+
+.large {
+    text-align: center;
+}
+
+.makemered{
+    color: rgb(27, 31, 238);
+}
+
+* {text-align: center;
+}
+
+
+#specialyellow{
+    color: rgb(18, 54, 212);
+}
+
+/* *{
+    box-sizing: border-box;
+    padding: 25 50 75 50;
+} */
+
+body {
+    background-image: url("Jiveoh_Logo.png")
+
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,150,0.5),rgba(0,0,50,0.5)),url("bg.png");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.contact-title{
+    margin-top: 100px;
+    color:#fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+.contact-title h2{
+    font-size: 16px;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+/* * { box-sizing: border-box; */ 
+
+    /* .container {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: row;
+     } */
+
+
